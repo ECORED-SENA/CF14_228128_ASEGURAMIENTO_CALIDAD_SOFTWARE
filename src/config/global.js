@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Plan de pruebas de usabilidad',
+    descripcionCurso:
+      'Los conceptos, técnicas y herramientas relacionados con la arquitectura de la información determinan los elementos de interacción y sus funciones en la interfaz de un sistema de software interactivo. Además de permitir conocer a los usuarios, el tester debe entender que, para el éxito de la aplicación, es necesario validar la naturaleza del funcionamiento y, sobre todo, que la aplicación realmente sea usable y accesible. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -10,8 +11,12 @@ export default {
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,61 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Arquitectura de la información, navegación y búsqueda',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Introducción a la Arquitectura de la Información',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'El arquitecto de la información',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'La investigación de la audiencia',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Organizando la información',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodologías de evaluación de usabilidad y accesibilidad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Introducción y conceptos básicos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Plan de evaluación. Introducción y conceptos básicos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Introducción a la experiencia de usuario',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Diseño Centrado en el Usuario',
+            hash: 't_3_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -142,8 +180,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +190,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +200,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +225,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
