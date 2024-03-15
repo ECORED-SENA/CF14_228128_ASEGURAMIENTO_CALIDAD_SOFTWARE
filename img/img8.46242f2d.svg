@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="640" viewBox="0 0 1328 640">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_382606" data-name="Rectángulo 382606" width="97" height="28.092" fill="#3ee2a8"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_382763" data-name="Rectángulo 382763" width="264" height="94" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1079194" data-name="Grupo 1079194" transform="translate(-180 -3133)">
+    <rect id="Rectángulo_5533" data-name="Rectángulo 5533" width="1328" height="640" transform="translate(180 3133)" fill="#ffeea6"/>
+    <g id="Grupo_1073631" data-name="Grupo 1073631" transform="translate(1411 3163.908)">
+      <g id="Grupo_1073630" data-name="Grupo 1073630" clip-path="url(#clip-path)">
+        <path id="Trazado_823641" data-name="Trazado 823641" d="M97,10.26l-1.624,1.624a11.112,11.112,0,0,1-15.715,0l-.977-.977a11.116,11.116,0,0,0-15.715,0,11.112,11.112,0,0,1-15.715,0l-.089-.089a11.116,11.116,0,0,0-15.715,0l-.8.8a11.112,11.112,0,0,1-15.715,0l-.62-.622A11.11,11.11,0,0,0,0,9.824v4.9a11.107,11.107,0,0,1,14.317,1.169l.62.622a11.112,11.112,0,0,0,15.715,0l.8-.8a11.112,11.112,0,0,1,15.715,0l.089.089a11.112,11.112,0,0,0,15.715,0,11.112,11.112,0,0,1,15.715,0l.977.977a11.112,11.112,0,0,0,15.715,0L97,15.153Z" transform="translate(0 8.061)" fill="#3ee2a8"/>
+        <path id="Trazado_823642" data-name="Trazado 823642" d="M97,2.7,95.376,4.32a11.112,11.112,0,0,1-15.715,0l-.977-.977a11.112,11.112,0,0,0-15.715,0,11.112,11.112,0,0,1-15.715,0l-.089-.089a11.112,11.112,0,0,0-15.715,0l-.8.8a11.112,11.112,0,0,1-15.715,0l-.62-.622A11.11,11.11,0,0,0,0,2.261V7.154A11.11,11.11,0,0,1,14.317,8.325l.62.622a11.112,11.112,0,0,0,15.715,0l.8-.8a11.112,11.112,0,0,1,15.715,0l.089.089a11.112,11.112,0,0,0,15.715,0,11.112,11.112,0,0,1,15.715,0l.977.977a11.112,11.112,0,0,0,15.715,0L97,7.59Z" transform="translate(0 0)" fill="#3ee2a8"/>
+      </g>
+    </g>
+    <g id="Enmascarar_grupo_175" data-name="Enmascarar grupo 175" transform="translate(285 3679)" opacity="0.5" clip-path="url(#clip-path-2)">
+      <circle id="Elipse_9895" data-name="Elipse 9895" cx="113.5" cy="113.5" r="113.5" transform="translate(0 9)" fill="#add3fd"/>
+    </g>
+  </g>
+</svg>
