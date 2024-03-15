@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Arquitectura de la información, navegación y búsqueda
     .row
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p.mb-0 En esta unidad, se abordarán, de manera general, áreas claves para la comprensión de la disciplina de la usabilidad, por lo que es necesario profundizar en temáticas como la Arquitectura de la Información (AI), donde no solo se trata de la estructura gráfica visual de una aplicación software, sino que también importa el contenido que se va colocar, es decir, debe haber un sentido y organización de la información, por lo que se adicionan técnicas y consejos  alrededor de una buena construcción, en pro de la navegación y la búsqueda. De esta manera, con estas temáticas y herramientas, se pretende que  tenga las habilidades y competencias para validar y mejorar las aplicaciones software asociadas al concepto de la usabilidad.
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width:440px", alt='').m-auto
     Separador
@@ -17,7 +17,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.1 Introducción a la arquitectura de la información
     .row.align-items-center.mb-4
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .row.mb-3
           .col-12.bg-c2
             .p-4
@@ -36,10 +36,10 @@
                         i.fas.fa-circle(style="color:#1682FB !important")
                         | ¿En alguna ocasión se ha perdido por los pasillos de un hospital sin encontrar la consulta que buscaba?
         p.mb-0 Para resolver este tipo de problemas, y otros más, es que surge la Arquitectura de la Información (AI). La AI lleva tres décadas tratando de resolver y mejorar estos problemas.  El Information Architecture Institute la define como:
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img2.png', style="width:320px", alt='').m-auto
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       .col-12.bg-c4
         .p-4
           .row.align-items-center
@@ -49,25 +49,25 @@
             .col
               p.text-white.mb-0 #[b Es el diseño estructural de los entornos de información compartidos. Es el arte y la ciencia de organizar y etiquetar sitios web, intranets, comunidades en línea y software, para apoyar la usabilidad y la facilidad de encontrar contenidos. Es una comunidad emergente en la práctica enfocada en proporcionar los principios del diseño y la arquitectura al entorno digital.]
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0  
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img3.png', style="width:320px", alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El objetivo de la Arquitectura de la Información no es otro que el de ayudar a las personas a entender su entorno y encontrar lo que están buscando en el mundo real, así como en entornos digitales. Es decir, #[b ayuda a los usuarios a ubicarse, saber dónde se encuentran, cuál es la información disponible y cómo volver al punto de partida cuando se sumergen demasiado en una estructura siguiendo unas pistas equivocadas].  
         p La AI ofrece una visión clara de lo que se puede esperar de la página o aplicación en la que el usuario se encuentra. Un simple golpe de vista proporcionará una idea de la intencionalidad del sitio, su actividad principal y qué tipo de contenidos se pueden encontrar navegando por su interior.
         p.mb-0 En resumen, la Arquitectura de la Información se centra en las siguientes acciones:
     .row.justify-content-center.mb-5
-      .col-md-9.col-lg.bg-c5.m-2
+      .col-md-9.col-lg.bg-c5.m-2(data-aos="fade-right")
         .p-4
           figure.mb-3
             img(src='@/assets/curso/tema1/img2.svg', style="width:120px", alt='')
           p.text-white.mb-0 Organizar los contenidos y los objetos de manera intuitiva para los usuarios.
-      .col-md-9.col-lg.bg-c5.m-2
+      .col-md-9.col-lg.bg-c5.m-2(data-aos="fade-down")
         .p-4
           figure.mb-3
             img(src='@/assets/curso/tema1/img3.svg', style="width:120px", alt='')
           p.text-white.mb-0 Etiquetar y describir los grupos de información de manera clara y sencilla.
-      .col-md-9.col-lg.bg-c5.m-2
+      .col-md-9.col-lg.bg-c5.m-2(data-aos="fade-left")
         .p-4
           figure.mb-3
             img(src='@/assets/curso/tema1/img4.svg', style="width:120px", alt='')
@@ -85,15 +85,15 @@
                   .col
                     h3 La importancia de la AI
           .row.align-items-center.mb-4
-            .col-lg-10.order-2.order-lg-1
+            .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
               p La necesidad de una Arquitectura de la Información surge en el momento en que se agrupan términos o ideas y estos grupos requieren ser etiquetados. Es importante considerar que, si en nuestra vida cotidiana puede resultar desafiante agrupar u organizar objetos para nuestro uso personal, este reto se intensifica cuando la organización se realiza para personas fuera de nuestro entorno privado.
               p El nombre asignado a cada grupo debe ser lo más simple e intuitivo posible, con el objetivo de facilitar su hallazgo por el mayor número posible de usuarios.
               p.mb-0 Además, la información crece constantemente, y cuanta más información, más difícil será encontrar lo que se busca.
-            .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema1/img7.svg', style="width:320px", alt='').m-auto
           .row.justify-content-center.mb-4
-            .col-lg-10
+            .col-lg-10(data-aos="fade-down")
               .row.align-items-center
                 .col-lg-auto.pe-0.mb-4.mb-lg-0
                   figure
@@ -104,8 +104,8 @@
                       .col-12.bg-c8
                         .p-4
                           p.mb-0 Una buena arquitectura de la información, ayudará a encontrar la información que se está buscando, descartando el contenido que no está relacionado con la misma, mediante una toma de decisiones que requiera el menor tiempo posible.
-          p.mb-5 La dificultad, radica en una serie de características que se debe tener en cuenta sobre los usuarios y contenidos:
-    .row.bg-c9.mb-5
+          p.mb-5(data-aos="fade-right") La dificultad, radica en una serie de características que se debe tener en cuenta sobre los usuarios y contenidos:
+    .row.bg-c9.mb-5(data-aos="fade-left")
       .col-12
         .p-5
           .row.justify-content-center
@@ -204,13 +204,13 @@
                           p.mb-0 #[b 6. Interpretación]
                     p.mb-0 Los usuarios tienen unas costumbres o mecanismos de interpretación diferentes.
     .row.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img5.png', style="width:380px", alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Al desarrollar una Arquitectura de la Información, es esencial llevar a cabo una investigación preliminar con los usuarios. Es crucial reconocer que no todos los usuarios poseen conocimientos previos sobre los temas tratados, ni están familiarizados con la terminología específica que se emplea. Además, es importante entender que cada persona interpreta la información a su manera y desde su propio punto de vista.
         p.mb-0 Antes de realizar una buena Arquitectura de la Información, se deben reconocer tres pilares que intervienen directamente en el proceso:
-    .row.bg-c12.mb-5
+    .row.bg-c12.mb-5(data-aos="fade-right")
       .col-12
         .p-4.p-lg-5
           .tarjeta.tarjeta--azul
@@ -272,15 +272,15 @@
                       img(src='@/assets/curso/tema1/img5.svg', style="width:50px" alt='').m-auto
                   .col
                     h3 La AI como parte del proyecto
-          p.mb-5 Se deben conocer, las formas de comunicar el trabajo y estar atento para detallar, identificar y definir los sistemas y componentes en los que se basan los sitios. Se debe desarrollar la capacidad de convencer a los clientes y colegas sobre el análisis y las soluciones planteadas, que se comunicarán a través de una documentación y entregables que pueden agruparse en dos grandes tipos, como se puede ver a continuación:
+          p.mb-5(data-aos="fade-right") Se deben conocer, las formas de comunicar el trabajo y estar atento para detallar, identificar y definir los sistemas y componentes en los que se basan los sitios. Se debe desarrollar la capacidad de convencer a los clientes y colegas sobre el análisis y las soluciones planteadas, que se comunicarán a través de una documentación y entregables que pueden agruparse en dos grandes tipos, como se puede ver a continuación:
           .row.justify-content-center.mb-5
-            .col-md-9.col-lg.bg-c13.m-2
+            .col-md-9.col-lg.bg-c13.m-2(data-aos="fade-right")
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img15.svg', style="width:140px" alt='').m-auto
                 p.text-center.mb-3 #[b Relacionados con la Arquitectura de la Información en sí]
                 p.mb-0 A través de la estructura o la forma del sitio y cómo se relaciona cada una de estas partes. También, mediante la creación de grupos y el etiquetado de estos. En esta categoría, se incluye el «metadato», es decir, la forma de describir los productos y los términos utilizados (muy común en #[i e-commerce] y en webs que disponen de amplios listados de productos).
-            .col-md-9.col-lg.bg-c13.m-2
+            .col-md-9.col-lg.bg-c13.m-2(data-aos="fade-left")
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img16.svg', style="width:140px" alt='').m-auto
@@ -296,7 +296,7 @@
                   .col
                     h3 AI en el contexto
           .row.align-items-center.mb-5
-            .col-lg-8.order-2.order-lg-1
+            .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
               p Al iniciar un proyecto, se debe tener en cuenta una serie de parámetros: ¿Cuáles son los objetivos? ¿Cuál es la tecnología empleada y cuáles son nuestras oportunidades y limitaciones? ¿El diseño nos añade alguna limitación adicional? ¿En qué entorno o filosofía de trabajo nos encontramos y cómo afecta eso a nuestro proyecto? ¿Cuáles son todas las personas implicadas y de qué manera influyen en el proyecto? Además, no se deben perder de vista dos puntos clave durante el proceso: 
               .row.justify-content-center.mb-3
                 .col-md-9.col-lg.bg-c14.m-2
@@ -306,21 +306,21 @@
                   .p-4
                     p.text-center.mb-0 ¿Qué se espera una vez se haya finalizado el proyecto? 
               p.mb-0 Si se desconoce el norte o ruta del proyecto, difícilmente se podrá llegar al destino; por esta razón, el conocimiento claro de los objetivos permitirá: 
-            .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2 
+            .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema1/img7.png', style="width:380px", alt='').m-auto
           .row.justify-content-center.mb-5
-            .col-md-9.col-lg.bg-c5.m-2
+            .col-md-9.col-lg.bg-c5.m-2(data-aos="fade-right")
               .p-4
                 figure.mb-3
                   img(src='@/assets/curso/tema1/img18.svg', style="width:120px", alt='')
                 p.text-white.mb-0 Evaluar requerimientos y soluciones.
-            .col-md-9.col-lg.bg-c5.m-2
+            .col-md-9.col-lg.bg-c5.m-2(data-aos="fade-down")
               .p-4
                 figure.mb-3
                   img(src='@/assets/curso/tema1/img19.svg', style="width:120px", alt='')
                 p.text-white.mb-0 Establecer funcionalidades y prioridades.
-            .col-md-9.col-lg.bg-c5.m-2
+            .col-md-9.col-lg.bg-c5.m-2(data-aos="fade-left")
               .p-4
                 figure.mb-3
                   img(src='@/assets/curso/tema1/img20.svg', style="width:120px", alt='')
@@ -335,15 +335,15 @@
             .col
               h3 AI más allá de la web
     .row.align-items-center.mb-5
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .row
-          .col-12.bg-c15
+          .col-12.bg-c3
             .p-4
               p.mb-0 Es frecuente pensar que la Arquitectura de la Información únicamente está presente o es aplicable a páginas web, pero en realidad las metodologías y técnicas de AI son aplicables en cualquier lugar donde un usuario necesite ubicarse o encontrar una determinada información. Se presentan algunos de estos ejemplos no web para otras soluciones digitales, así:
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img8.png', style="width:380px", alt='')
-    .row.bg-c12
+    .row.bg-c12(data-aos="fade-left")
       .col-12
         .p-4.p-lg-5
           .tarjeta.tarjeta--azul
@@ -377,7 +377,7 @@
     #t_1_2
     .titulo-segundo.color-acento-contenido
       h2 1.2 El arquitecto de la información
-    p.mb-5 Para generar un plan de pruebas de usabilidad a cualquier interfaz de un sistema software interactivo, es necesario conocer de manera conceptual y epistemológica diversos conceptos y áreas que de por sí generarán mayor autonomía a la hora de aplicar una técnica de evaluación de usabilidad. Es por eso que en este apartado se continúa con términos y fórmulas claves para el aprendizaje efectivo de esta disciplina.
+    p.mb-5(data-aos="fade-right") Para generar un plan de pruebas de usabilidad a cualquier interfaz de un sistema software interactivo, es necesario conocer de manera conceptual y epistemológica diversos conceptos y áreas que de por sí generarán mayor autonomía a la hora de aplicar una técnica de evaluación de usabilidad. Es por eso que en este apartado se continúa con términos y fórmulas claves para el aprendizaje efectivo de esta disciplina.
     .row.mb-4
       .col-auto.bg-c6(data-aos="fade-down")
         .px-3.pb-0
@@ -388,19 +388,19 @@
             .col
               h3 El rol del arquitecto de información
     .row.mb-5
-      .col-12.bg-c16
+      .col-12.bg-c16(data-aos="fade-down")
         .p-4
           p.mb-0 Para el proceso de evaluación de una interfaz, no solo basta con revisar la naturaleza funcional de la aplicación, sino que es necesario entender su concepto mismo, a lo que está destinada, es decir, cuál es la razón de esa aplicación, a qué tipo de usuario objetivo está destinada y las características especiales derivadas de los requerimientos, como puede observarse en la Figura 1.
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       p.mb-0 #[b Figura 1]. Ejemplo de arquitectura de la información
     .row.mb-5
-      .col-12.bg-c17
+      .col-12.bg-c17(data-aos="fade-down")
         .p-4
           figure
             img(src='@/assets/curso/tema1/img22.svg', style="width:850px" alt='La figura muestra un diagrama de flujo de la arquitectura de la información de una plataforma de servicios de salud. Detalla un menú con opciones de inicio, notificaciones y perfil, donde desde el perfil se accede a secciones como recetas, laboratorios y mensajes. Además, se mapean flujos de trabajo para citas médicas y pagos, así como páginas de entidades para doctores y lugares. El propósito es estructurar la navegación y las funciones de la aplicación.').m-auto
-    p.mb-4 A continuación, se presenta una serie de pasos que dará pistas al tester para entender la lógica de la interfaz:
+    p.mb-4(data-aos="fade-right") A continuación, se presenta una serie de pasos que dará pistas al tester para entender la lógica de la interfaz:
     .row.align-items-center.mb-5
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Realice un invetario")
             .col-12
@@ -412,7 +412,7 @@
           .row(titulo="Defina el mapa")
             .col-12
               p.mb-0 Se deben presentar o ilustrar todos los datos anteriores en un mapa que muestra la estructura de la información y del contenido (no confundir con sitemap). De esta forma, se permitirá ver las relaciones y agrupaciones establecidas entre los contenidos. Hay casos donde será necesario renombrar algunas categorías o incluso permitir el acceso a algún apartado desde distintas categorías.
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img12.png', style="width:350px" alt='').m-auto
     .row.mb-4
@@ -425,19 +425,19 @@
             .col
               h3 Competencias: colaboración y comunicación
     .row.align-items-center
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         .row
-          .col-12.bg-c15
+          .col-12.bg-c3
             .p-4
               p.mb-0 Es importante que haya una precisa comunicación entre los miembros del equipo de desarrollo. Como evaluador de interfaces, es apremiante conocer o interpretar la estrategia diseñada por sus colegas, revisar el mapa de la AI de la aplicación. Al igual que el arquitecto de información, el tester debe conocer los puntos de interacción entre un producto o servicio digital y sus usuarios.
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img13.png', style="width:380px", alt='').m-auto
     Separador
     #t_1_3
     .titulo-segundo.color-acento-contenido
       h2 1.3 La investigación de la audiencia
-    p.mb-5 En esta sección, se presentarán de manera muy precisa conceptos y técnicas para la comprensión del usuario y, de esta forma, tener de manera más prolija la organización de la información. Así, se espera que todo lo conceptual visto en los apartados anteriores quede claro con esta parte práctica.
+    p.mb-5(data-aos="fade-right") En esta sección, se presentarán de manera muy precisa conceptos y técnicas para la comprensión del usuario y, de esta forma, tener de manera más prolija la organización de la información. Así, se espera que todo lo conceptual visto en los apartados anteriores quede claro con esta parte práctica.
     .row.mb-4
       .col-auto.bg-c6(data-aos="fade-down")
         .px-3.pb-0
@@ -448,7 +448,7 @@
             .col
               h3 Aprendiendo de nuestros usuarios
     .row.align-items-center.mb-5
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p De manera rápida, no solo la persona encargada de realizar las pruebas a las aplicaciones software, sino todo el equipo de desarrollo, debería hacerse estos cuestionamientos:
         .row.justify-content-center.mb-3
           .col-md-9.col-lg.bg-c14.m-2
@@ -479,7 +479,7 @@
                     li.d-flex
                       i.fas.fa-circle(style="color:#1682FB !important")
                       | Identificar obstáculos.
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img14.png', style="width:330px", alt='').m-auto
     .row.mb-4
@@ -491,11 +491,11 @@
                 img(src='@/assets/curso/tema1/img5.svg', style="width:50px" alt='').m-auto
             .col
               h3 Metodologías de investigación
-    p.mb-5 En este apartado, se hará énfasis en solo una de las metodologías, se trata de aquella que involucra la organización y la categorización de la información de acuerdo con el usuario y su contexto, esta se denomina card sorting. No obstante, se presenta un esquema que engloba las principales metodologías, según las condiciones de presencia con usuarios (directo), las que generan un informe de manera inmediata (reportados) y las que se realizan cuando no se tiene contacto directo con los usuarios (observados).
-    .titulo-sexto.color-acento-contenido
+    p.mb-5(data-aos="fade-right") En este apartado, se hará énfasis en solo una de las metodologías, se trata de aquella que involucra la organización y la categorización de la información de acuerdo con el usuario y su contexto, esta se denomina card sorting. No obstante, se presenta un esquema que engloba las principales metodologías, según las condiciones de presencia con usuarios (directo), las que generan un informe de manera inmediata (reportados) y las que se realizan cuando no se tiene contacto directo con los usuarios (observados).
+    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       p.mb-0 #[b Figura 2]. Métodos de evaluación según condiciones
     .row.mb-5
-      .col-12.bg-c17
+      .col-12.bg-c17(data-aos="fade-left")
         .p-4
           figure
             img(src='@/assets/curso/tema1/img25.svg', style="width:650px" alt='El gráfico organiza métodos de evaluación en un sistema de cuatro cuadrantes  directos o indirectos, y reportados o observados. Focus Group y Entrevistas son directos y reportados; Observación es directa y observada; Encuestas son indirectas y reportadas; HelpDesk, Analítica y Logs son indirectos y observados. Card Sorting se sitúa centralmente, sugiriendo aplicabilidad en múltiples cuadrantes. Este esquema ayuda a elegir métodos de evaluación adecuados para diferentes situaciones de proyecto.').m-auto
@@ -503,7 +503,7 @@
       .col-12
         .px-5
           .row.justify-content-center.mb-5
-            .col-md-10.col-lg.bg-c18.m-2
+            .col-md-10.col-lg.bg-c18.m-2(data-aos="fade-right")
               .p-4
                 p #[b.txt-c2 #[i Card sorting]]
                 .row.mb-3
@@ -512,7 +512,7 @@
                       p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de #[i Card Sorting] u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de #[i Card Sorting] puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de software de clasificación de tarjetas en línea. (Assistant Secretary for Public Affairs, 2021).
                 figure
                   img(src='@/assets/curso/tema1/img15.png', style="width:520px", alt='').m-auto
-            .col-md-10.col-lg.bg-c18.m-2
+            .col-md-10.col-lg.bg-c18.m-2(data-aos="fade-left")
               .p-4
                 p #[b.txt-c2 Beneficios del #[i Card Sorting]]
                 .row.mb-3
@@ -530,9 +530,9 @@
                       img(src='@/assets/curso/tema1/img5.svg', style="width:50px" alt='').m-auto
                   .col
                     h3 Analizando los resultados
-          p.mb-5 Para entender el análisis de los resultados de la técnica de Card Sorting, es necesario abordar las instrucciones y procedimiento que se establecen. En ese sentido, se define lo siguiente:
+          p.mb-5(data-aos="fade-right") Para entender el análisis de los resultados de la técnica de Card Sorting, es necesario abordar las instrucciones y procedimiento que se establecen. En ese sentido, se define lo siguiente:
           .row.justify-content-center.mb-5
-            .col-lg-10.bg-c21.mb-4
+            .col-lg-10.bg-c21.mb-4(data-aos="fade-right")
               .p-4
                 .row.align-items-center
                   .col-md-auto.mb-4.mb-md-0
@@ -551,7 +551,7 @@
                       li.d-flex
                         i.lista-ul__vineta
                         | Cualitativo (Comentarios, sugerencias, dudas, alternativas).
-            .col-lg-10.bg-c22.mb-4
+            .col-lg-10.bg-c22.mb-4(data-aos="fade-down")
               .p-4
                 .row.align-items-center
                   .col-md-auto.mb-4.mb-md-0
@@ -563,7 +563,7 @@
                         .lista-ol--cuadro__vineta
                           span(style="color:#000") 2.
                         | Es recomendable que para la prueba se tengan cinco (5) personas, y el tiempo utilizado es de 20 min x persona.
-            .col-lg-10.bg-c21
+            .col-lg-10.bg-c21(data-aos="fade-left")
               .p-4
                 .row.align-items-center
                   .col-md-auto.mb-4.mb-md-0
@@ -575,9 +575,9 @@
                         .lista-ol--cuadro__vineta
                           span(style="color:#000") 3.
                         | La técnica puede realizarse en dos tipos, de manera cerrada (validación) o abierta (investigación). Es decir, cuando es cerrada, es porque las categorías ya están definidas, de esta manera, los usuarios lo que hacen es clasificar los ítems en las categorías ya establecidas. Por otro lado, cuando se aplica de manera abierta, los usuarios agrupan los ítems y dan nombres a las categorías de estas agrupaciones.
-          p.mb-5 De acuerdo con lo visto hasta el momento, en relación al análisis de resultados, se pueden presentar estos con alguna de las siguientes técnicas:
+          p.mb-5(data-aos="fade-right") De acuerdo con lo visto hasta el momento, en relación al análisis de resultados, se pueden presentar estos con alguna de las siguientes técnicas:
     .row.mb-5
-      .col-12.bg-c23
+      .col-12.bg-c23(data-aos="fade-down")
         .p-4
           ul.lista-ul.mb-0
             li.d-flex
@@ -586,15 +586,15 @@
               p.mb-0 #[b Matriz de concurrencia]: con el resultado de la matriz de concurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 3]. Ejemplo de matriz de concurrencia
         .row
-          .col-12.bg-c17
+          .col-12.bg-c17(data-aos="fade-left")
             .p-4
               figure
                 img(src='@/assets/curso/tema1/img1.jpg', style="width:850px" alt='La matriz contiene una matriz de concurrencia que enumera categorías de muebles y muestra su relación con varios factores representados por columnas, con números que indican el nivel de concurrencia o frecuencia de relación. Esta matriz sirve para analizar patrones de asociación entre categorías de muebles en diferentes situaciones o condiciones.').m-auto
     .row.mb-5
-      .col-12.bg-c23
+      .col-12.bg-c23(data-aos="fade-down")
         .p-4
           ul.lista-ul.mb-0
             li.d-flex
@@ -603,10 +603,10 @@
               p.mb-0 #[b Dendrograma]: el análisis del dendrograma revela las agrupaciones posibles, lo que subraya la responsabilidad del equipo de desarrollo al decidir cuántas categorías incorporar en el diseño de la interfaz, ya sean 2, 3 o 4. Esta decisión depende en gran medida de la investigación realizada con los usuarios, resaltando así la importancia y el papel crucial del evaluador o tester de interfaces de software. Estos profesionales tienen la capacidad de determinar la eficacia de la arquitectura de la información, basándose en las técnicas y conceptos estudiados.
     .row.justify-content-center
       .col-lg-10
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 4]. Ejemplo de dendrograma
         .row
-          .col-12.bg-c17
+          .col-12.bg-c17(data-aos="fade-left")
             .p-4
               .row.justify-content-center
                 .col-auto
@@ -617,7 +617,7 @@
     #t_1_4
     .titulo-segundo.color-acento-contenido
       h2 1.4 Organizando la información
-    p.mb-5 Hay algunos consejos importantes para la determinación de una buena interfaz, estos serán de utilidad para el evaluador de una interfaz gráfica de un sistema software interactivo, que, aunque en el caso práctico se toma una aplicación web, estos consejos sirven para cualquier aplicación software.
+    p.mb-5(data-aos="fade-right") Hay algunos consejos importantes para la determinación de una buena interfaz, estos serán de utilidad para el evaluador de una interfaz gráfica de un sistema software interactivo, que, aunque en el caso práctico se toma una aplicación web, estos consejos sirven para cualquier aplicación software.
     .row.mb-4
       .col-auto.bg-c6(data-aos="fade-down")
         .px-3.pb-0
@@ -628,7 +628,7 @@
             .col
               h3 Páginas web que funcionan
     .row.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p Los criterios para definir si una aplicación o sitio web funciona o no dependen de una serie de hallazgos comunes. Normalmente, los hallazgos se refieren a una de las siguientes categorías, obsérvelas en el siguiente recurso:
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="1. Aspectos negativos generales")
@@ -703,7 +703,7 @@
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
                   p.mb-0 Sencillez.
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img20.png', style="width:470px" alt='').m-auto
     .row.mb-4
@@ -716,7 +716,7 @@
             .col
               h3 El planteamiento inicial
     .row.mb-5
-      .col-12.bg-c24
+      .col-12.bg-c24(data-aos="fade-down")
         .p-4
           .row.align-items-center
             .col-lg-auto.pe-0.mb-4.mb-lg-0
@@ -734,9 +734,9 @@
                 img(src='@/assets/curso/tema1/img5.svg', style="width:50px" alt='').m-auto
             .col
               h3 Esquemas de organización
-    p.mb-5 Según el enunciado, los esquemas son lineamientos o marcos de referencia para organizar y presentar la información. En ese sentido, es importante tener en cuenta estos aspectos, por lo que, entre los más representativos, se tienen:
+    p.mb-5(data-aos="fade-right") Según el enunciado, los esquemas son lineamientos o marcos de referencia para organizar y presentar la información. En ese sentido, es importante tener en cuenta estos aspectos, por lo que, entre los más representativos, se tienen:
     .row.justify-content-center.mb-5
-      .col-md-8.col-lg-3.ps-0.bg-c26.mb-4.mb-lg-0
+      .col-md-8.col-lg-3.ps-0.bg-c26.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-auto
             p.txt-c2 #[b Esquemas exactos]
@@ -756,7 +756,7 @@
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
                   p.text-white.mb-0 Geográficos
-      .col-md-8.col-lg.ms-0.ms-lg-4.ps-0.bg-c26
+      .col-md-8.col-lg.ms-0.ms-lg-4.ps-0.bg-c26(data-aos="fade-left")
         .row
           .col-auto
             p.txt-c2 #[b Esquemas ambiguos]
@@ -793,9 +793,9 @@
                 img(src='@/assets/curso/tema1/img5.svg', style="width:50px" alt='').m-auto
             .col
               h3 Esquemas de organización
-    p.mb-5 Para este apartado, solo se debe responder a una pregunta: ¿Cómo navegan nuestros usuarios? Para los usuarios resulta frustrante aquellas estructuras que no resultan lógicas ni predecibles; emplear métodos de organización consistentes permite a los usuarios extender su conocimiento desde páginas familiares a otras que no lo son. Por lo anterior, se presentan las estructuras de organización simples o complejas que se encuentran cuando se navega por la web:
+    p.mb-5(data-aos="fade-right") Para este apartado, solo se debe responder a una pregunta: ¿Cómo navegan nuestros usuarios? Para los usuarios resulta frustrante aquellas estructuras que no resultan lógicas ni predecibles; emplear métodos de organización consistentes permite a los usuarios extender su conocimiento desde páginas familiares a otras que no lo son. Por lo anterior, se presentan las estructuras de organización simples o complejas que se encuentran cuando se navega por la web:
     .row.justify-content-center
-      .col-lg-10.bg-c27.mb-4
+      .col-lg-10.bg-c27.mb-4(data-aos="fade-right")
         .p-4
           .row.align-items-center
             .col-md-auto.mb-4.mbmd-0
@@ -817,7 +817,7 @@
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
                   p.mb-0 Pueden ser amplias o profundas.
-      .col-lg-10.bg-c27
+      .col-lg-10.bg-c27(data-aos="fade-left")
         .p-4
           .row.align-items-center
             .col-md-auto.mb-4.mbmd-0

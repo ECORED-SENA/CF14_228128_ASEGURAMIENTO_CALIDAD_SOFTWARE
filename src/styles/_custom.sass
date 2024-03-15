@@ -60,8 +60,31 @@
 .tarjeta.color-primario1
   background-color: #F6F6F6
 
+.tarjeta.color-primario2
+  background-color: #DBEDFD
+
 .bloque-texto-d
   border-top: 0px
+
+.modal-a__content
+  width: 30%
+  background-color: #273A89
+  border-radius: 25px
+  border: 14px solid #FFF
+  background-image: url("../assets/curso/tema2/img10.svg")
+  background-repeat: no-repeat
+  background-position: 100% 17%
+  p,b
+    color: #FFF
+  @media screen and ( max-width: $bp-max-lg )
+    width: 80%
+.modal-a__close-btn i
+  color: #FFF
+
+.tabs-a__tab
+  background-color: #E8E8E8
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: #000 !important
 
 .bg
   &-c1
@@ -146,7 +169,6 @@
     background-position: 3% 20%
   &-c15
     background-color: #E1F6EF
-    border-radius: 15px
   &-c16
     background-color: #DCECFE
     border-radius: 15px
@@ -206,6 +228,27 @@
     background-image: url(../assets/curso/tema2/img2.svg)
     background-repeat: no-repeat
     background-position: bottom
+  &-c29
+    background-color: #B3BAD6
+    border-top-left-radius: 15px
+    border-bottom-left-radius: 15px
+    @media screen and ( max-width: $bp-max-lg )
+      border-bottom-left-radius: 0px
+      border-top-right-radius: 15px
+  &-c30
+    background-color: #ADD3FD
+    border-top-right-radius: 15px
+    border-bottom-right-radius: 15px
+    @media screen and ( max-width: $bp-max-lg )
+      border-top-right-radius: 0px
+      border-bottom-left-radius: 15px
+  &-c31
+    background-color: #FFCE00
+  &-c32
+    background-color: #3EE2A8
+  &-c33
+    background-color: #fff
+    border-radius: 15px
 
 .fig
   &-p1
@@ -218,3 +261,6 @@
   &-c2
     padding: 4px
     background-color: #3EE2A8
+  &-c3
+    padding: 14px
+    background-color: #273A89

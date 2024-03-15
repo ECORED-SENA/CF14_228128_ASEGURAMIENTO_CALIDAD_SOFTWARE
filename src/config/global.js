@@ -140,32 +140,142 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'El arquitecto de la información',
+      referencia:
+        'XMind: Aplicación poderosa para el diseño y la creación de mapas mentales y lluvias de ideas.',
+      tipo: 'Instalador',
+      link: 'https://www.xmind.net/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Analizando los resultados',
+      referencia:
+        'Artificial Bridge. (2020). <i>Aprende a Crear un CARD SORTING REMOTO fácilmente y GRATIS con Optimal Workshop</i>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=kuWQCxB5r_k',
+    },
+    {
+      tema: 'Evaluación heurística',
+      referencia:
+        'Modroño, T. (2017). <i>Metodologías de UX: Evaluación Heurística (PARTE I)</i>. Medium. ',
+      tipo: 'Artículo',
+      link:
+        'https://blog.interactius.com/metodolog%C3%ADas-de-ux-evaluaci%C3%B3n-heur%C3%ADstica-parte-i-b5d02b566987',
+    },
+    {
+      tema: 'Tipo de técnica',
+      referencia:
+        'Nielsen, J. (2020). <i>10 Usability Heuristics for User Interface Design</i>. Nielsen Norman Group.',
+      tipo: 'Artículo',
+      link: 'https://www.nngroup.com/articles/ten-usability-heuristics/',
+    },
+    {
+      tema: 'Tipo de técnicas',
+      referencia:
+        'Granollers, T. (2015). <i>Plan de evaluación</i>. Curso de Interacción Persona-Ordenador.',
+      tipo: 'Archivo',
+      link:
+        'http://mpiua.invid.udl.cat/wp-content/uploads/2014/07/Comparativa-M%C3%A9todos-Evaluaci%C3%B3n-Usabilidad.png',
+    },
+    {
+      tema: 'Plan de evaluación y conceptos básicos',
+      referencia: 'Negru, S. (2020). <i>Usability Test Plan Template</i>.',
+      tipo: 'Archivo',
+      link: 'https://profs.info.uaic.ro/~stefan.negru/usability/',
+    },
+    {
+      tema: 'Plan de evaluación y conceptos básicos',
+      referencia:
+        'Granollers, T. (2020). <i>Curso IPO: Accesibilidad</i>. Curso de Interacción Persona-Ordenador. ',
+      tipo: 'Artículo',
+      link: 'https://mpiua.invid.udl.cat/curso-ipo/curso-ipo-accesibilidad/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Arquitectura de la Información',
+      significado:
+        'disciplina encargada del estudio, análisis, organización, disposición y estructuración de la información en espacios de contenidos, y de la selección y presentación de los datos en los sistemas de información interactivos y no interactivos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>Brainstorming</em>',
+      significado:
+        'es una herramienta de trabajo grupal, que facilita el surgimiento de nuevas ideas sobre un tema o problema determinado. La lluvia de ideas es una técnica de grupo para generar ideas originales en un ambiente relajado.',
+    },
+    {
+      termino: '<em>Card Sorting</em>',
+      significado:
+        'método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión con este método, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden ayudar a etiquetar estos grupos.',
+    },
+    {
+      termino: 'UX',
+      significado:
+        'es una referencia a cómo un usuario experimenta e interactúa con un producto o servicio, un concepto más que un proceso.',
+    },
+    {
+      termino: '<em>Mapping</em>',
+      significado: 'herramienta para realizar mapas conceptuales.',
+    },
+    {
+      termino: 'Página web',
+      significado:
+        'es un documento que se puede mostrar en un navegador web como Firefox, Google Chrome, Microsoft Internet Explorer o Edge, o Safari de Apple.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Assistant Secretary for Public Affairs. (2020). <i>Card Sorting</i>. Usability.gov. ',
+      link:
+        'https://www.usability.gov/how-to-and-tools/methods/card-sorting.html',
+    },
+    {
+      referencia:
+        'Barbaroux, M. (2016). <i>Untangling UX, part 1: Design Thinking vs UCD</i>. Cambridge Consultants. ',
+      link:
+        'https://www.cambridgeconsultants.com/insights/untangling-ux-part-1-design-thinking-vs-ucd',
+    },
+    {
+      referencia:
+        'Busquets, C. (2020). <i>Arquitectura de la información: qué es y cómo hacerlo</i>. uiFromMars. ',
+      link: 'https://www.uifrommars.com/arquitectura-de-la-informacion/',
+    },
+    {
+      referencia:
+        'Granollers, T. (2014). <i>Métodos evaluación usabilidad</i>. Curso de Interacción Persona-Ordenador. ',
+      link:
+        'https://mpiua.invid.udl.cat/fases-mpiua/evaluacion/metodos-evaluacion-usabilidad/',
+    },
+    {
+      referencia:
+        'Granollers, T. (2015). <i>Plan de evaluación</i>. Curso de Interacción Persona-Ordenador. ',
+      link:
+        'https://mpiua.invid.udl.cat/fases-mpiua/evaluacion/plan-de-evaluacion/',
+    },
+    {
+      referencia:
+        'Granollers, T. (2016). <i>Evaluación</i>. Curso de Interacción Persona-Ordenador. ',
+      link: 'https://mpiua.invid.udl.cat/fases-mpiua/evaluacion/',
+    },
+    {
+      referencia:
+        'Granollers, T. (2018). <i>Clasificación de los métodos</i>. Curso de Interacción Persona-Ordenador. ',
+      link: 'https://mpiua.invid.udl.cat/fases-mpiua/evaluacion/clasificacion/',
+    },
+    {
+      referencia:
+        'Interaction Design Foundation [IDF]. (2020). <i>User Centered Design</i>. ',
+      link:
+        'https://www.interaction-design.org/literature/topics/user-centered-design',
+    },
+    {
+      referencia:
+        'ISO. (2019).  <i>Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems</i> (ISO 9241-210:2010). ',
+      link: 'https://www.iso.org/standard/52075.html',
+    },
+    {
+      referencia:
+        'Justinmind. (2018). <i>UCD vs UX: What&apos;s the difference? - UX Planet</i>. Medium. ',
+      link: 'https://uxplanet.org/ucd-vs-ux-whats-the-difference-255443efa5f',
     },
   ],
   creditos: [
@@ -188,9 +298,30 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Santiago Muñoz de la Rosa',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodología y pedagógica ',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Servicios de Salud',
         },
       ],
     },
@@ -198,24 +329,39 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Jhon Jairo Urueta Álvarez',
+          cargo: 'Desarrollador fullstack',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Storyboard e ilustración',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Animador y productor multimedia',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        },
+        {
+          nombre: 'Nombre',
+          cargo: 'Locución',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
       ],
     },
