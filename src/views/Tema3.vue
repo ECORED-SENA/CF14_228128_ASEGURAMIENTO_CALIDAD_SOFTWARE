@@ -15,12 +15,12 @@
                 img(src='@/assets/curso/tema3/img1.svg', style="width:310px" alt='').m-auto
             .col.bg-c25
               .p-3
-                p.mb-0 Acá se pretende generar claridad sobre conceptos que comúnmente se utilizan en equipos de desarrollo, como, por ejemplo, el término experiencia de usuario. Es por eso que la pretensión de esta sección es abordar de manera clave algunas particularidades de esta disciplina, a través de la metodología del Diseño Centrado en el Usuario, toda vez que sin la aplicación de la metodología no es muy posible llegar a generar experiencias positivas en el uso de un sistema software interactivo.
+                p.mb-0 Acá se pretende generar claridad sobre conceptos que comúnmente se utilizan en equipos de desarrollo, como, por ejemplo, el término experiencia de usuario. Es por eso que la pretensión de esta sección es abordar de manera clave algunas particularidades de esta disciplina, a través de la metodología del Diseño Centrado en el Usuario, toda vez que sin la aplicación de la metodología no es muy posible llegar a generar experiencias positivas en el uso de un sistema #[i software] interactivo.
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 3.1.Diseño Centrado en el Usuario
-    p.mb-5(data-aos="fade-right") En esta última sección, se quiere dar a conocer una breve ilustración sobre una de las metodologías más importantes para el desarrollo de sistemas interactivos software. Esta metodología, además de ser estandarizada por la ISO 13407, propone una serie de lineamientos y fases para el éxito de las aplicaciones.
+    p.mb-5(data-aos="fade-right") En esta última sección, se quiere dar a conocer una breve ilustración sobre una de las metodologías más importantes para el desarrollo de sistemas interactivos #[i software]. Esta metodología, además de ser estandarizada por la ISO 13407, propone una serie de lineamientos y fases para el éxito de las aplicaciones.
     .row.mb-4
       .col-auto.bg-c6(data-aos="fade-down")
         .px-3.pb-0
@@ -39,7 +39,7 @@
       .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img1.png', style="width:450px" alt='').m-auto
-    p.mb-5(data-aos="fade-right") El DCU es un paradigma, de cierta forma, cambia la forma en que se piensa y se percibe sobre los seres humanos y las computadoras. Este tipo de proceso de diseño tiene como objetivo involucrar activamente a los usuarios en cada etapa del proceso de construcción de un sistema interactivo software, para el desarrollo de productos más efectivos, eficientes y seguros. Estas etapas incluyen:
+    p.mb-5(data-aos="fade-right") El DCU es un paradigma, de cierta forma, cambia la forma en que se piensa y se percibe sobre los seres humanos y las computadoras. Este tipo de proceso de diseño tiene como objetivo involucrar activamente a los usuarios en cada etapa del proceso de construcción de un sistema interactivo #[i software], para el desarrollo de productos más efectivos, eficientes y seguros. Estas etapas incluyen:
     .row.bg-c12.mb-5(data-aos="fade-down")
       .col-12
         .p-4.p-lg-5

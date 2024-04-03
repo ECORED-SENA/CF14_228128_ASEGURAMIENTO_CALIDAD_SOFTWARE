@@ -41,10 +41,10 @@
         .row
           .col-12.bg-c2
             .p-4
-              p.mb-0 En el siguiente video se explorará  la vital importancia de la evaluación dentro de la ingeniería de software, evidenciando que su relevancia trasciende la fase de desarrollo. Expertos destacan su impacto significativo y analizan su papel indispensable.
+              p.mb-0 En el siguiente video se explorará  la vital importancia de la evaluación dentro de la ingeniería de #[i software], evidenciando que su relevancia trasciende la fase de desarrollo. Expertos destacan su impacto significativo y analizan su papel indispensable.
     figure.mb-5(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/8Xe8Cgrs15E?si=D6Sc_5qkkhMKdocI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos="fade-right") Dados estos criterios, los métodos de evaluación pueden clasificarse de varias maneras, como se muestra a continuación.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -457,7 +457,7 @@
           .col-12.bg-c2
             .p-4
               p #[b Sin usuarios y/o implicados]
-              p Métodos que son realizados solo por expertos evaluadores con la ayuda de pautas o instrucciones que permiten hacer un seguimiento de lo que han realizado los usuarios mientras utilizan el sistema. Esta modalidad de trabajar sin la presencia de los usuarios permite que este tipo de métodos se realicen con mayor rapidez; no obstante, por el mismo motivo, carecen de la valiosa información que evaluar con dichos usuarios aporta al desarrollo del aplicativo software. Adicionalmente, el método tiene un valor agregado y es que permite detectar errores funcionales.
+              p Métodos que son realizados solo por expertos evaluadores con la ayuda de pautas o instrucciones que permiten hacer un seguimiento de lo que han realizado los usuarios mientras utilizan el sistema. Esta modalidad de trabajar sin la presencia de los usuarios permite que este tipo de métodos se realicen con mayor rapidez; no obstante, por el mismo motivo, carecen de la valiosa información que evaluar con dichos usuarios aporta al desarrollo del aplicativo #[i software]. Adicionalmente, el método tiene un valor agregado y es que permite detectar errores funcionales.
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido
@@ -473,7 +473,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img13.svg', style="width:70px" alt='').m-auto
               .col
-                p.mb-0 Antes de iniciar una evaluación, se deben tener claros los objetivos de la misma. No se debe pensar en el sistema en global, sino solo en la parte que va a ser probada y en lo que se espera de la prueba. Aquí toma precisión una de las frases más importantes del desarrollo software: “divide y vencerás”.
+                p.mb-0 Antes de iniciar una evaluación, se deben tener claros los objetivos de la misma. No se debe pensar en el sistema en global, sino solo en la parte que va a ser probada y en lo que se espera de la prueba. Aquí toma precisión una de las frases más importantes del desarrollo #[i software]: “divide y vencerás”.
           .tarjeta.color-primario2.p-4(titulo="PASO 2")
             .row
               .col-12
@@ -524,7 +524,7 @@
       .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img6.png', style="width:350px" alt='').m-auto
-    p(data-aos="fade-right") Respecto a los principios fundamentales de la accesibilidad, es crucial incorporar esta disciplina dentro de los procesos de desarrollo y evaluación de proyectos de software. Al enfocarse en mejorar sus habilidades y competencias en estas áreas, se contribuye a la creación de sistemas más pulidos y accesibles para todos los usuarios.
+    p(data-aos="fade-right") Respecto a los principios fundamentales de la accesibilidad, es crucial incorporar esta disciplina dentro de los procesos de desarrollo y evaluación de proyectos de #[i software]. Al enfocarse en mejorar sus habilidades y competencias en estas áreas, se contribuye a la creación de sistemas más pulidos y accesibles para todos los usuarios.
 
 </template>
 

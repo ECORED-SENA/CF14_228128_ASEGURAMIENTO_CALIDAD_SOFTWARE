@@ -8,7 +8,7 @@
       h1 Arquitectura de la información, navegación y búsqueda
     .row
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
-        p.mb-0 En esta unidad, se abordarán, de manera general, áreas claves para la comprensión de la disciplina de la usabilidad, por lo que es necesario profundizar en temáticas como la Arquitectura de la Información (AI), donde no solo se trata de la estructura gráfica visual de una aplicación software, sino que también importa el contenido que se va colocar, es decir, debe haber un sentido y organización de la información, por lo que se adicionan técnicas y consejos  alrededor de una buena construcción, en pro de la navegación y la búsqueda. De esta manera, con estas temáticas y herramientas, se pretende que  tenga las habilidades y competencias para validar y mejorar las aplicaciones software asociadas al concepto de la usabilidad.
+        p.mb-0 En esta unidad, se abordarán, de manera general, áreas claves para la comprensión de la disciplina de la usabilidad, por lo que es necesario profundizar en temáticas como la Arquitectura de la Información (AI), donde no solo se trata de la estructura gráfica visual de una aplicación #[i software], sino que también importa el contenido que se va colocar, es decir, debe haber un sentido y organización de la información, por lo que se adicionan técnicas y consejos  alrededor de una buena construcción, en pro de la navegación y la búsqueda. De esta manera, con estas temáticas y herramientas, se pretende que  tenga las habilidades y competencias para validar y mejorar las aplicaciones #[i software] asociadas al concepto de la usabilidad.
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width:440px", alt='').m-auto
@@ -47,7 +47,7 @@
               figure
                 img(src='@/assets/curso/tema1/img1.svg', style="width:70px", alt='').m-auto
             .col
-              p.text-white.mb-0 #[b Es el diseño estructural de los entornos de información compartidos. Es el arte y la ciencia de organizar y etiquetar sitios web, intranets, comunidades en línea y software, para apoyar la usabilidad y la facilidad de encontrar contenidos. Es una comunidad emergente en la práctica enfocada en proporcionar los principios del diseño y la arquitectura al entorno digital.]
+              p.text-white.mb-0 #[b Es el diseño estructural de los entornos de información compartidos. Es el arte y la ciencia de organizar y etiquetar sitios web, intranets, comunidades en línea y #[i software], para apoyar la usabilidad y la facilidad de encontrar contenidos. Es una comunidad emergente en la práctica enfocada en proporcionar los principios del diseño y la arquitectura al entorno digital.]
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -377,7 +377,7 @@
     #t_1_2
     .titulo-segundo.color-acento-contenido
       h2 1.2 El arquitecto de la información
-    p.mb-5(data-aos="fade-right") Para generar un plan de pruebas de usabilidad a cualquier interfaz de un sistema software interactivo, es necesario conocer de manera conceptual y epistemológica diversos conceptos y áreas que de por sí generarán mayor autonomía a la hora de aplicar una técnica de evaluación de usabilidad. Es por eso que en este apartado se continúa con términos y fórmulas claves para el aprendizaje efectivo de esta disciplina.
+    p.mb-5(data-aos="fade-right") Para generar un plan de pruebas de usabilidad a cualquier interfaz de un sistema #[i software] interactivo, es necesario conocer de manera conceptual y epistemológica diversos conceptos y áreas que de por sí generarán mayor autonomía a la hora de aplicar una técnica de evaluación de usabilidad. Es por eso que en este apartado se continúa con términos y fórmulas claves para el aprendizaje efectivo de esta disciplina.
     .row.mb-4
       .col-auto.bg-c6(data-aos="fade-down")
         .px-3.pb-0
@@ -449,7 +449,7 @@
               h3 Aprendiendo de nuestros usuarios
     .row.align-items-center.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
-        p De manera rápida, no solo la persona encargada de realizar las pruebas a las aplicaciones software, sino todo el equipo de desarrollo, debería hacerse estos cuestionamientos:
+        p De manera rápida, no solo la persona encargada de realizar las pruebas a las aplicaciones #[i software], sino todo el equipo de desarrollo, debería hacerse estos cuestionamientos:
         .row.justify-content-center.mb-3
           .col-md-9.col-lg.bg-c14.m-2
             .p-4
@@ -509,7 +509,7 @@
                 .row.mb-3
                   .col-12.bg-c19
                     .p-4
-                      p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de #[i Card Sorting] u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de #[i Card Sorting] puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de software de clasificación de tarjetas en línea. (Assistant Secretary for Public Affairs, 2021).
+                      p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de #[i Card Sorting] u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de #[i Card Sorting] puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de #[i software] de clasificación de tarjetas en línea. (Assistant Secretary for Public Affairs, 2021).
                 figure
                   img(src='@/assets/curso/tema1/img15.png', style="width:520px", alt='').m-auto
             .col-md-10.col-lg.bg-c18.m-2(data-aos="fade-left")
@@ -518,7 +518,7 @@
                 .row.mb-3
                   .col-12.bg-c19
                     .p-4
-                      p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de #[i Card Sorting] u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de #[i Card Sorting] puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de software de clasificación de tarjetas en línea. (Assistant Secretary for Public Affairs, 2021).
+                      p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de #[i Card Sorting] u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de #[i Card Sorting] puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de #[i software] de clasificación de tarjetas en línea. (Assistant Secretary for Public Affairs, 2021).
                 figure
                   img(src='@/assets/curso/tema1/img16.png', style="width:520px", alt='').m-auto
           .row.mb-4
@@ -600,7 +600,7 @@
             li.d-flex
               i.fas.fa-circle(style="color:#1682FB !important")
               |
-              p.mb-0 #[b Dendrograma]: el análisis del dendrograma revela las agrupaciones posibles, lo que subraya la responsabilidad del equipo de desarrollo al decidir cuántas categorías incorporar en el diseño de la interfaz, ya sean 2, 3 o 4. Esta decisión depende en gran medida de la investigación realizada con los usuarios, resaltando así la importancia y el papel crucial del evaluador o tester de interfaces de software. Estos profesionales tienen la capacidad de determinar la eficacia de la arquitectura de la información, basándose en las técnicas y conceptos estudiados.
+              p.mb-0 #[b Dendrograma]: el análisis del dendrograma revela las agrupaciones posibles, lo que subraya la responsabilidad del equipo de desarrollo al decidir cuántas categorías incorporar en el diseño de la interfaz, ya sean 2, 3 o 4. Esta decisión depende en gran medida de la investigación realizada con los usuarios, resaltando así la importancia y el papel crucial del evaluador o tester de interfaces de #[i software]. Estos profesionales tienen la capacidad de determinar la eficacia de la arquitectura de la información, basándose en las técnicas y conceptos estudiados.
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -617,7 +617,7 @@
     #t_1_4
     .titulo-segundo.color-acento-contenido
       h2 1.4 Organizando la información
-    p.mb-5(data-aos="fade-right") Hay algunos consejos importantes para la determinación de una buena interfaz, estos serán de utilidad para el evaluador de una interfaz gráfica de un sistema software interactivo, que, aunque en el caso práctico se toma una aplicación web, estos consejos sirven para cualquier aplicación software.
+    p.mb-5(data-aos="fade-right") Hay algunos consejos importantes para la determinación de una buena interfaz, estos serán de utilidad para el evaluador de una interfaz gráfica de un sistema #[i software] interactivo, que, aunque en el caso práctico se toma una aplicación web, estos consejos sirven para cualquier aplicación #[i software].
     .row.mb-4
       .col-auto.bg-c6(data-aos="fade-down")
         .px-3.pb-0
