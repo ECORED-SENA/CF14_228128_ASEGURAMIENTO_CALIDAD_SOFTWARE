@@ -37,7 +37,7 @@
         figure
           img(src='@/assets/curso/tema2/img2.png', style="width:300px", alt='').m-auto
       .col-lg-9(data-aos="fade-left")
-        p Lo anteriormente expuesto constituye una de las verdades que lamentablemente se da con demasiada frecuencia y, por infortunio, es lo habitual. Además, aunque el concepto de usabilidad pueda ser sencillo de comprender, conseguir que un producto sea usable y comprensible es difícil, ahora, aún más, que deje sensaciones positivas al usarlo (experiencia de usuario). En general, cuando se diseña y desarrolla una aplicación software, se está más preocupado por la funcionalidad que por la usabilidad del mismo, y eso que no se trata de la accesibilidad, que en últimas es poco tratada.
+        p Lo anteriormente expuesto constituye una de las verdades que lamentablemente se da con demasiada frecuencia y, por infortunio, es lo habitual. Además, aunque el concepto de usabilidad pueda ser sencillo de comprender, conseguir que un producto sea usable y comprensible es difícil, ahora, aún más, que deje sensaciones positivas al usarlo (experiencia de usuario). En general, cuando se diseña y desarrolla una aplicación #[i software], se está más preocupado por la funcionalidad que por la usabilidad del mismo, y eso que no se trata de la accesibilidad, que en últimas es poco tratada.
         .row
           .col-12.bg-c2
             .p-4
@@ -88,7 +88,7 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema2/img6.svg', style="width:120px", alt='').m-auto
                 p #[b Aquellos que se realizan en el entorno natural o habitual del escenario (donde se realizan las tareas a evaluar)]
-                p.mb-0 Esta condición se da cuando el evaluador realiza su trabajo en el escenario natural donde se realiza la escena o acciones cotidianas del usuario. Por ejemplo, muchas de las empresas utilizan la tecnología de seguimiento ocular para revisar dónde los usuarios enfocan su atención. Este tipo de prácticas se usa con frecuencia para revisar mejorar la usabilidad de los sitios web de e-commerce, utilizando la técnica de Tracking Eye Movements, para reconocer y comprender la navegación ocular de dichas aplicaciones web.
+                p.mb-0 Esta condición se da cuando el evaluador realiza su trabajo en el escenario natural donde se realiza la escena o acciones cotidianas del usuario. Por ejemplo, muchas de las empresas utilizan la tecnología de seguimiento ocular para revisar dónde los usuarios enfocan su atención. Este tipo de prácticas se usa con frecuencia para revisar mejorar la usabilidad de los sitios web de #[i e-commerce], utilizando la técnica de #[i Tracking Eye Movements], para reconocer y comprender la navegación ocular de dichas aplicaciones web.
     .row.mb-4
       .col-auto.bg-c6(data-aos="fade-down")
         .px-3.pb-0
@@ -156,7 +156,7 @@
                     .col-10.col-lg-auto.mx-1.my-3
                       a.boton.color-acento-botones.indicador__container(@click="modal10 = true")
                         span(style="color:#000") Grabación del uso (#[i(style="color:#000") Logging])
-            .p-4.bg-white(titulo="3. Test")
+            .p-4.bg-white(titulo="3. <i>Test</i>")
               .row.align-items-center
                 .col-lg-4.mb-4.mb-lg-0
                   figure
@@ -446,7 +446,7 @@
           .col-12.bg-c2
             .p-4
               p #[b Con usuarios y/o implicados]
-              p Son los métodos en los que se evalúa el sistema con la intervención directa de los usuarios objetivos. De igual manera, también pueden participar en las sesiones otras personas que, sin ser usuarios finales, tienen la condición de stakeholders o implicados del sistema.
+              p Son los métodos en los que se evalúa el sistema con la intervención directa de los usuarios objetivos. De igual manera, también pueden participar en las sesiones otras personas que, sin ser usuarios finales, tienen la condición de #[i stakeholders] o implicados del sistema.
               p.mb-0 Estos métodos resultan ser muy pertinentes debido a que implican la participación de usuarios en el proceso de diseño; la desventaja es que no siempre resulta fácil reclutar usuarios para este tipo de ejercicios.
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")

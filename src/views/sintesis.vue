@@ -8,7 +8,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis presenta  un esquema del Plan de Pruebas de Usabilidad, que se concentra en la Arquitectura de la Información para mejorar la experiencia de uso y satisfacción del producto. Destaca la importancia del Arquitecto de la Información en la estructuración y localización de contenidos, el reto de mantener la usabilidad frente al crecimiento de datos y la necesidad de involucrar al usuario en el proceso de diseño para asegurar productos accesibles y fáciles de usar. Estrategias como el Card Sorting y evaluaciones heurísticas son clave para desarrollar interfaces predecibles y centradas en las necesidades del usuario, enfatizando la diferencia entre el proceso de diseño centrado en el usuario y la experiencia final del usuario.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

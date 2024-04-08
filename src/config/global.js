@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Plan de pruebas de usabilidad',
     descripcionCurso:
-      'Los conceptos, técnicas y herramientas relacionados con la arquitectura de la información determinan los elementos de interacción y sus funciones en la interfaz de un sistema de software interactivo. Además de permitir conocer a los usuarios, el tester debe entender que, para el éxito de la aplicación, es necesario validar la naturaleza del funcionamiento y, sobre todo, que la aplicación realmente sea usable y accesible. ',
+      'Los conceptos, técnicas y herramientas relacionados con la arquitectura de la información determinan los elementos de interacción y sus funciones en la interfaz de un sistema de <i>software</i> interactivo. Además de permitir conocer a los usuarios, el <i>tester</i> debe entender que, para el éxito de la aplicación, es necesario validar la naturaleza del funcionamiento y, sobre todo, que la aplicación realmente sea usable y accesible. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -178,12 +178,6 @@ export default {
     },
     {
       tema: 'Plan de evaluación y conceptos básicos',
-      referencia: 'Negru, S. (2020). <i>Usability Test Plan Template</i>.',
-      tipo: 'Archivo',
-      link: 'https://profs.info.uaic.ro/~stefan.negru/usability/',
-    },
-    {
-      tema: 'Plan de evaluación y conceptos básicos',
       referencia:
         'Granollers, T. (2020). <i>Curso IPO: Accesibilidad</i>. Curso de Interacción Persona-Ordenador. ',
       tipo: 'Artículo',
@@ -231,8 +225,7 @@ export default {
     {
       referencia:
         'Barbaroux, M. (2016). <i>Untangling UX, part 1: Design Thinking vs UCD</i>. Cambridge Consultants. ',
-      link:
-        'https://www.cambridgeconsultants.com/insights/untangling-ux-part-1-design-thinking-vs-ucd',
+      link: '',
     },
     {
       referencia:
@@ -276,6 +269,11 @@ export default {
       referencia:
         'Justinmind. (2018). <i>UCD vs UX: What&apos;s the difference? - UX Planet</i>. Medium. ',
       link: 'https://uxplanet.org/ucd-vs-ux-whats-the-difference-255443efa5f',
+    },
+    {
+      referencia:
+        'Blogger. (2020). <i>Crea un blog atractivo y original</i>. Es fácil y gratuito. ',
+      link: 'https://www.blogger.com/about/?hl=es',
     },
   ],
   creditos: [
@@ -344,22 +342,12 @@ export default {
           centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Intérprete Lenguaje de señas',
-          centro: 'Regional Antioquia - Centro de Servicios de Salud',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Storyboard e ilustración',
-          centro: 'Regional Antioquia - Centro de Servicios de Salud',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Animador y productor multimedia',
           centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Wilson Andrés Arenales Cáceres',
           cargo: 'Locución',
           centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },

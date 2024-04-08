@@ -58,7 +58,7 @@
                   .col-lg-5.order-2.order-lg-1
                     .text-white
                       p #[b.txt-c1 Concepto y estrategia]
-                      p La siguiente etapa incluye la conceptualización del proyecto, que consiste en organizar el mismo de manera esquemática. Un sitio web puede contener varias páginas web, es necesario definir la cantidad antes de iniciar su desarrollo. También, el sitio web puede necesitar ciertas funcionalidades, como base de datos, sistemas de seguridad, entre otros aspectos importantes. Para ello, se realizan mapas del sitio o sitemaps, diseño de arquitectura de la información y categorización de productos. Esta última implica identificar la línea de productos, como sucede con los e-commerce, donde se puede utilizar card sorting, que es una herramienta sencilla y práctica para establecer estas categorías.
+                      p La siguiente etapa incluye la conceptualización del proyecto, que consiste en organizar el mismo de manera esquemática. Un sitio web puede contener varias páginas web, es necesario definir la cantidad antes de iniciar su desarrollo. También, el sitio web puede necesitar ciertas funcionalidades, como base de datos, sistemas de seguridad, entre otros aspectos importantes. Para ello, se realizan mapas del sitio o #[i sitemaps], diseño de arquitectura de la información y categorización de productos. Esta última implica identificar la línea de productos, como sucede con los #[i e-commerce], donde se puede utilizar #[i card sorting], que es una herramienta sencilla y práctica para establecer estas categorías.
                   .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
                     figure
                       img(src='@/assets/curso/tema3/img3.png', style="width:380px", alt='').m-auto
@@ -74,7 +74,7 @@
                   .col-lg-5.order-2.order-lg-1
                     .text-white
                       p #[b.txt-c1 Desarrollo]
-                      p La etapa anterior se pone en evidencia cuando se realiza el test de usuario, que incluye pruebas finales de la plataforma y uso de herramientas de analítica, como eye tracking, que permiten hacerle seguimiento a la vista mientras navega en una pantalla.
+                      p La etapa anterior se pone en evidencia cuando se realiza el test de usuario, que incluye pruebas finales de la plataforma y uso de herramientas de analítica, como #[i eye tracking], que permiten hacerle seguimiento a la vista mientras navega en una pantalla.
                   .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
                     figure
                       img(src='@/assets/curso/tema3/img5.png', style="width:380px", alt='').m-auto

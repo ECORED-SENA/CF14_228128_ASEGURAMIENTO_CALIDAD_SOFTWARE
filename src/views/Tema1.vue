@@ -35,7 +35,7 @@
                       li.d-flex
                         i.fas.fa-circle(style="color:#1682FB !important")
                         | ¿En alguna ocasión se ha perdido por los pasillos de un hospital sin encontrar la consulta que buscaba?
-        p.mb-0 Para resolver este tipo de problemas, y otros más, es que surge la Arquitectura de la Información (AI). La AI lleva tres décadas tratando de resolver y mejorar estos problemas.  El Information Architecture Institute la define como:
+        p.mb-0 Para resolver este tipo de problemas, y otros más, es que surge la Arquitectura de la Información (AI). La AI lleva tres décadas tratando de resolver y mejorar estos problemas.  El #[i Information Architecture Institute] la define como:
       .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img2.png', style="width:320px", alt='').m-auto
@@ -71,7 +71,7 @@
         .p-4
           figure.mb-3
             img(src='@/assets/curso/tema1/img4.svg', style="width:120px", alt='')
-          p.text-white.mb-0 Facilitar la localización (findability) de la información, bien sea por los elementos de navegación disponibles o por sistemas de búsqueda directa.
+          p.text-white.mb-0 Facilitar la localización (#[i findability]) de la información, bien sea por los elementos de navegación disponibles o por sistemas de búsqueda directa.
     .row.bg-c11
       .col-12
         .px-5
@@ -285,7 +285,7 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img16.svg', style="width:140px" alt='').m-auto
                 p.text-center.mb-3 #[b Relacionados con la navegación]
-                p.mb-0 Describiendo cómo se desplazan los usuarios a través de la web, rutas y atajos que definen su comportamiento, y los elementos que componen en sí dicha navegación (barras de navegación, links, in-page navigation, etc.).
+                p.mb-0 Describiendo cómo se desplazan los usuarios a través de la web, rutas y atajos que definen su comportamiento, y los elementos que componen en sí dicha navegación (barras de navegación, #[i links], #[i in-page navigation], etc.).
           .row.mb-4
             .col-auto.bg-c6(data-aos="fade-down")
               .px-3.pb-0
@@ -360,7 +360,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-5.order-2.order-lg-1
                     .text-white
-                      p #[b.txt-c1 Dashboards o paneles de control]
+                      p #[b.txt-c1 #[i Dashboards] o paneles de control]
                       p Secciones o herramientas en las que la visualización y organización de mucha información debe ser procesada al mismo tiempo. En estas plataformas, es esencial el uso de la jerarquía para enfatizar o resaltar los elementos más importantes.
                   .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
                     figure
@@ -398,20 +398,20 @@
         .p-4
           figure
             img(src='@/assets/curso/tema1/img22.svg', style="width:850px" alt='La figura muestra un diagrama de flujo de la arquitectura de la información de una plataforma de servicios de salud. Detalla un menú con opciones de inicio, notificaciones y perfil, donde desde el perfil se accede a secciones como recetas, laboratorios y mensajes. Además, se mapean flujos de trabajo para citas médicas y pagos, así como páginas de entidades para doctores y lugares. El propósito es estructurar la navegación y las funciones de la aplicación.').m-auto
-    p.mb-4(data-aos="fade-right") A continuación, se presenta una serie de pasos que dará pistas al tester para entender la lógica de la interfaz:
+    p.mb-4(data-aos="fade-right") A continuación, se presenta una serie de pasos que dará pistas al #[i tester] para entender la lógica de la interfaz:
     .row.align-items-center.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Realice un invetario")
             .col-12
               p Consiste en identificar todo aquello que se quiera incluir en el proyecto, partiendo del contenido y de las funcionalidades que se quiere ofrecer.
-              p.mb-0 Para decidir qué incluir, se debe soportar en la investigación y el conocimiento que se haya obtenido sobre los usuarios; esta información debe ser realizada por instancia del equipo de desarrollo de la empresa, pero también sobre el sitio web o app actual (si se trata de un rediseño)
+              p.mb-0 Para decidir qué incluir, se debe soportar en la investigación y el conocimiento que se haya obtenido sobre los usuarios; esta información debe ser realizada por instancia del equipo de desarrollo de la empresa, pero también sobre el sitio web o #[i app] actual (si se trata de un rediseño).
           .row(titulo="Agrupe las tarjetas")
             .col-12
-              p.mb-0 Se deben establecer relaciones entre los ítems inventariados para agruparlos en categorías dentro de las secciones o menús de la arquitectura, basándose en dónde los usuarios esperan encontrarlos para alcanzar sus objetivos. Cris Busquets sugiere utilizar técnicas como el Card Sorting, entrevistas o encuestas para entender las preferencias de navegación de los usuarios, como en el ejemplo de una tienda online de muebles, donde se puede organizar el contenido por tipo de mueble, función, habitación, o a través de un buscador.
+              p.mb-0 Se deben establecer relaciones entre los ítems inventariados para agruparlos en categorías dentro de las secciones o menús de la arquitectura, basándose en dónde los usuarios esperan encontrarlos para alcanzar sus objetivos. Cris Busquets sugiere utilizar técnicas como el #[i Card Sorting], entrevistas o encuestas para entender las preferencias de navegación de los usuarios, como en el ejemplo de una tienda #[i online] de muebles, donde se puede organizar el contenido por tipo de mueble, función, habitación, o a través de un buscador.
           .row(titulo="Defina el mapa")
             .col-12
-              p.mb-0 Se deben presentar o ilustrar todos los datos anteriores en un mapa que muestra la estructura de la información y del contenido (no confundir con sitemap). De esta forma, se permitirá ver las relaciones y agrupaciones establecidas entre los contenidos. Hay casos donde será necesario renombrar algunas categorías o incluso permitir el acceso a algún apartado desde distintas categorías.
+              p.mb-0 Se deben presentar o ilustrar todos los datos anteriores en un mapa que muestra la estructura de la información y del contenido (no confundir con #[i sitemap]). De esta forma, se permitirá ver las relaciones y agrupaciones establecidas entre los contenidos. Hay casos donde será necesario renombrar algunas categorías o incluso permitir el acceso a algún apartado desde distintas categorías.
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img12.png', style="width:350px" alt='').m-auto
@@ -429,7 +429,7 @@
         .row
           .col-12.bg-c3
             .p-4
-              p.mb-0 Es importante que haya una precisa comunicación entre los miembros del equipo de desarrollo. Como evaluador de interfaces, es apremiante conocer o interpretar la estrategia diseñada por sus colegas, revisar el mapa de la AI de la aplicación. Al igual que el arquitecto de información, el tester debe conocer los puntos de interacción entre un producto o servicio digital y sus usuarios.
+              p.mb-0 Es importante que haya una precisa comunicación entre los miembros del equipo de desarrollo. Como evaluador de interfaces, es apremiante conocer o interpretar la estrategia diseñada por sus colegas, revisar el mapa de la AI de la aplicación. Al igual que el arquitecto de información, el #[i tester] debe conocer los puntos de interacción entre un producto o servicio digital y sus usuarios.
       .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img13.png', style="width:380px", alt='').m-auto
@@ -491,7 +491,7 @@
                 img(src='@/assets/curso/tema1/img5.svg', style="width:50px" alt='').m-auto
             .col
               h3 Metodologías de investigación
-    p.mb-5(data-aos="fade-right") En este apartado, se hará énfasis en solo una de las metodologías, se trata de aquella que involucra la organización y la categorización de la información de acuerdo con el usuario y su contexto, esta se denomina card sorting. No obstante, se presenta un esquema que engloba las principales metodologías, según las condiciones de presencia con usuarios (directo), las que generan un informe de manera inmediata (reportados) y las que se realizan cuando no se tiene contacto directo con los usuarios (observados).
+    p.mb-5(data-aos="fade-right") En este apartado, se hará énfasis en solo una de las metodologías, se trata de aquella que involucra la organización y la categorización de la información de acuerdo con el usuario y su contexto, esta se denomina #[i card sorting]. No obstante, se presenta un esquema que engloba las principales metodologías, según las condiciones de presencia con usuarios (directo), las que generan un informe de manera inmediata (reportados) y las que se realizan cuando no se tiene contacto directo con los usuarios (observados).
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       p.mb-0 #[b Figura 2]. Métodos de evaluación según condiciones
     .row.mb-5
@@ -518,7 +518,17 @@
                 .row.mb-3
                   .col-12.bg-c19
                     .p-4
-                      p.mb-0 Es un método utilizado para ayudar a diseñar o evaluar la arquitectura de información de un sitio. En una sesión de #[i Card Sorting] u ordenamiento de tarjetas, los participantes organizan los temas en categorías que tienen sentido para ellos y también pueden apoyar a etiquetar estos grupos. La dinámica de #[i Card Sorting] puede utilizar tarjetas reales, trozos de papel o una de las varias herramientas de #[i software] de clasificación de tarjetas en línea. (Assistant Secretary for Public Affairs, 2021).
+                      p Ayuda a comprender las expectativas de los usuarios y los temas de su interés. Esta información del grupo de usuarios reclutados puede apoyar al equipo desarrollador a:
+                      ul.lista-ul
+                        li 
+                          i.fas.fa-circle(style="color: #1682FB")
+                          | Construir la estructura de su sitio web
+                        li 
+                          i.fas.fa-circle(style="color: #1682FB")
+                          | Decidir qué poner en la página de inicio
+                        li 
+                          i.fas.fa-circle(style="color: #1682FB")
+                          | Navegar y categorizar las etiquetas
                 figure
                   img(src='@/assets/curso/tema1/img16.png', style="width:520px", alt='').m-auto
           .row.mb-4
@@ -530,7 +540,7 @@
                       img(src='@/assets/curso/tema1/img5.svg', style="width:50px" alt='').m-auto
                   .col
                     h3 Analizando los resultados
-          p.mb-5(data-aos="fade-right") Para entender el análisis de los resultados de la técnica de Card Sorting, es necesario abordar las instrucciones y procedimiento que se establecen. En ese sentido, se define lo siguiente:
+          p.mb-5(data-aos="fade-right") Para entender el análisis de los resultados de la técnica de #[i Card Sorting], es necesario abordar las instrucciones y procedimiento que se establecen. En ese sentido, se define lo siguiente:
           .row.justify-content-center.mb-5
             .col-lg-10.bg-c21.mb-4(data-aos="fade-right")
               .p-4
@@ -543,7 +553,8 @@
                       li.d-flex
                         .lista-ol--cuadro__vineta
                           span(style="color:#000") 1.
-                        | Aplicando el Card Sorting se pueden tener resultados de tipo:
+                        |
+                        p.mb-0 Aplicando el #[i Card Sorting] se pueden tener resultados de tipo:
                     ul.lista-ul.ms-4
                       li.d-flex
                         i.lista-ul__vineta
@@ -583,16 +594,19 @@
             li.d-flex
               i.fas.fa-circle(style="color:#1682FB !important")
               |
-              p.mb-0 #[b Matriz de concurrencia]: con el resultado de la matriz de concurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
+              p.mb-0 #[b Matriz de coocurrencia]: con el resultado de la matriz de coocurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 #[b Figura 3]. Ejemplo de matriz de concurrencia
+          p.mb-0 #[b Figura 3]. Ejemplo de matriz de coocurrencia
         .row
           .col-12.bg-c17(data-aos="fade-left")
-            .p-4
-              figure
-                img(src='@/assets/curso/tema1/img1.jpg', style="width:850px" alt='La matriz contiene una matriz de concurrencia que enumera categorías de muebles y muestra su relación con varios factores representados por columnas, con números que indican el nivel de concurrencia o frecuencia de relación. Esta matriz sirve para analizar patrones de asociación entre categorías de muebles en diferentes situaciones o condiciones.').m-auto
+            .p-5
+              .row.justify-content-center
+                .col-auto
+                  figure
+                    img(src='@/assets/curso/tema1/img22.png', style="width:750px" alt='La matriz contiene una matriz de coocurrencia que enumera categorías de muebles y muestra su relación con varios factores representados por columnas, con números que indican el nivel de concurrencia o frecuencia de relación. Esta matriz sirve para analizar patrones de asociación entre categorías de muebles en diferentes situaciones o condiciones.').m-auto
+                  figcaption Nota. Tomado de (Blogger, 2020).
     .row.mb-5
       .col-12.bg-c23(data-aos="fade-down")
         .p-4
@@ -607,12 +621,14 @@
           p.mb-0 #[b Figura 4]. Ejemplo de dendrograma
         .row
           .col-12.bg-c17(data-aos="fade-left")
-            .p-4
+            .p-5
               .row.justify-content-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema1/img2.jpg', style="width:800px" alt='La figura  muestra un dendrograma de un análisis de conglomerados jerárquicos, donde diferentes categorías como "FORO", "CHAT", y otras, se agrupan basándose en su similitud. Las líneas horizontales representan la fusión de estas categorías en conglomerados que varían de cuatro a dos grupos principales, según la distancia reescalada entre ellos. Este gráfico se utiliza para visualizar la estructura de datos y la formación de grupos en un conjunto de datos.').m-auto
-                  figcaption Nota. Tomada de Revista No Solo Usabilidad (http://www.nosolousabilidad.com/).
+                    img(src='@/assets/curso/tema1/img23.png', style="width:700px" alt='La figura  muestra un dendrograma de un análisis de conglomerados jerárquicos, donde diferentes categorías como "FORO", "CHAT", y otras, se agrupan basándose en su similitud. Las líneas horizontales representan la fusión de estas categorías en conglomerados que varían de cuatro a dos grupos principales, según la distancia reescalada entre ellos. Este gráfico se utiliza para visualizar la estructura de datos y la formación de grupos en un conjunto de datos.').m-auto
+                  figcaption Nota. Tomada de Revista No Solo Usabilidad 
+                    | 
+                    a.txt-c4(href="http://www.nosolousabilidad.com/" target="_blank") (http://www.nosolousabilidad.com/).
     Separador 
     #t_1_4
     .titulo-segundo.color-acento-contenido
@@ -632,26 +648,6 @@
         p Los criterios para definir si una aplicación o sitio web funciona o no dependen de una serie de hallazgos comunes. Normalmente, los hallazgos se refieren a una de las siguientes categorías, obsérvelas en el siguiente recurso:
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="1. Aspectos negativos generales")
-            .col-12
-              p Estos se relacionan con:
-              ul.lista-ul.mb-0
-                li.d-flex
-                  i.fas.fa-circle(style="color:#1682FB !important")
-                  |
-                  p.mb-0 Contenidos difíciles de encontrar (etiquetas poco claras, ambiguas, navegación por encabezados incorrecta).
-                li.d-flex
-                  i.fas.fa-circle(style="color:#1682FB !important")
-                  |
-                  p.mb-0 Diseño gráfico descuidado.
-                li.d-flex
-                  i.fas.fa-circle(style="color:#1682FB !important")
-                  |
-                  p.mb-0 Demasiadas alertas.
-                li.d-flex
-                  i.fas.fa-circle(style="color:#1682FB !important")
-                  |
-                  p.mb-0 Tono/Lenguaje inapropiado (jerga empresarial ajena a la audiencia).
-          .row(titulo="2. Principales hallazgos negativos")
             .col-12
               p Entre los aspectos denominados negativos en la experiencia con páginas web, están:
               ul.lista-ul.mb-0
@@ -678,11 +674,31 @@
                 li.d-flex
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
-                  p.mb-0 Interacción (uso de banners, frames, elementos confusos).
+                  p.mb-0 Interacción (uso de #[i banners], #[i frames], elementos confusos).
                 li.d-flex
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
                   p.mb-0 Navegación.
+          .row(titulo="2. Principales hallazgos negativos")
+            .col-12
+              p Estos se relacionan con:
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-circle(style="color:#1682FB !important")
+                  |
+                  p.mb-0 Contenidos difíciles de encontrar (etiquetas poco claras, ambiguas, navegación por encabezados incorrecta).
+                li.d-flex
+                  i.fas.fa-circle(style="color:#1682FB !important")
+                  |
+                  p.mb-0 Diseño gráfico descuidado.
+                li.d-flex
+                  i.fas.fa-circle(style="color:#1682FB !important")
+                  |
+                  p.mb-0 Demasiadas alertas.
+                li.d-flex
+                  i.fas.fa-circle(style="color:#1682FB !important")
+                  |
+                  p.mb-0 Tono/Lenguaje inapropiado (jerga empresarial ajena a la audiencia).
           .row(titulo="3. Principales hallazgos positivos")
             .col-12
               p Principales hallazgos positivos
@@ -747,15 +763,15 @@
                 li.d-flex
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
-                  p.text-white.mb-0 Alfabéticos
+                  p.text-white.mb-0 Alfabéticos.
                 li.d-flex
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
-                  p.text-white.mb-0 Cronológicos
+                  p.text-white.mb-0 Cronológicos.
                 li.d-flex
                   i.fas.fa-circle(style="color:#1682FB !important")
                   |
-                  p.text-white.mb-0 Geográficos
+                  p.text-white.mb-0 Geográficos.
       .col-md-8.col-lg.ms-0.ms-lg-4.ps-0.bg-c26(data-aos="fade-left")
         .row
           .col-auto

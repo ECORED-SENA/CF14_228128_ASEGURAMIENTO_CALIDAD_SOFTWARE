@@ -13,7 +13,7 @@
           img(src='@/assets/curso/intro/img1.svg', style="width:80px", alt='').m-auto
       .col(data-aos="fade-left")
         p Le damos la bienvenida al componente formativo “Plan de pruebas de usabilidad”. 
-        p.mb-0 Este componente destaca la importancia de la arquitectura de la información en los contenidos a trabajar, así como la relevancia de las metodologías para la evaluación de usabilidad y accesibilidad en interfaces gráficas de sistemas de software. Además, se introduce la disciplina de la Experiencia de Usuario (UX). Estos conceptos son cruciales para elaborar un plan efectivo de pruebas de usabilidad.
+        p.mb-0 Este componente destaca la importancia de la arquitectura de la información en los contenidos a trabajar, así como la relevancia de las metodologías para la evaluación de usabilidad y accesibilidad en interfaces gráficas de sistemas de #[i software]. Además, se introduce la disciplina de la Experiencia de Usuario (UX). Estos conceptos son cruciales para elaborar un plan efectivo de pruebas de usabilidad.
     .row
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         .row
