@@ -522,13 +522,13 @@
                       ul.lista-ul
                         li 
                           i.fas.fa-circle(style="color: #1682FB")
-                          | Construir la estructura de su sitio web
+                          | Construir la estructura de su sitio web.
                         li 
                           i.fas.fa-circle(style="color: #1682FB")
-                          | Decidir qué poner en la página de inicio
+                          | Decidir qué poner en la página de inicio.
                         li 
                           i.fas.fa-circle(style="color: #1682FB")
-                          | Navegar y categorizar las etiquetas
+                          | Navegar y categorizar las etiquetas.
                 figure
                   img(src='@/assets/curso/tema1/img16.png', style="width:520px", alt='').m-auto
           .row.mb-4
@@ -558,7 +558,7 @@
                     ul.lista-ul.ms-4
                       li.d-flex
                         i.lista-ul__vineta
-                        | Cuantitativo (resultados, dendrograma, matriz de coocurrencia).
+                        | Cuantitativo (resultados, dendrograma, matriz de co-ocurrencia).
                       li.d-flex
                         i.lista-ul__vineta
                         | Cualitativo (Comentarios, sugerencias, dudas, alternativas).
@@ -594,18 +594,18 @@
             li.d-flex
               i.fas.fa-circle(style="color:#1682FB !important")
               |
-              p.mb-0 #[b Matriz de coocurrencia]: con el resultado de la matriz de coocurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
+              p.mb-0 #[b Matriz de co-ocurrencia]: con el resultado de la matriz de co-ocurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 #[b Figura 3]. Ejemplo de matriz de coocurrencia
+          p.mb-0 #[b Figura 3]. Ejemplo de matriz de co-ocurrencia
         .row
           .col-12.bg-c17(data-aos="fade-left")
             .p-5
               .row.justify-content-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema1/img22.png', style="width:750px" alt='La matriz contiene una matriz de coocurrencia que enumera categorías de muebles y muestra su relación con varios factores representados por columnas, con números que indican el nivel de concurrencia o frecuencia de relación. Esta matriz sirve para analizar patrones de asociación entre categorías de muebles en diferentes situaciones o condiciones.').m-auto
+                    img(src='@/assets/curso/tema1/img22.png', style="width:750px" alt='La matriz contiene una matriz de co-ocurrencia que enumera categorías de muebles y muestra su relación con varios factores representados por columnas, con números que indican el nivel de concurrencia o frecuencia de relación. Esta matriz sirve para analizar patrones de asociación entre categorías de muebles en diferentes situaciones o condiciones.').m-auto
                   figcaption Nota. Tomado de (Blogger, 2020).
     .row.mb-5
       .col-12.bg-c23(data-aos="fade-down")
