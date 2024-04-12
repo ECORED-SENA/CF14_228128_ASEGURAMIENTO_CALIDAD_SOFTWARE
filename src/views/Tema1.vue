@@ -402,7 +402,7 @@
     .row.align-items-center.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
-          .row(titulo="Realice un invetario")
+          .row(titulo="Realice un inventario")
             .col-12
               p Consiste en identificar todo aquello que se quiera incluir en el proyecto, partiendo del contenido y de las funcionalidades que se quiere ofrecer.
               p.mb-0 Para decidir qué incluir, se debe soportar en la investigación y el conocimiento que se haya obtenido sobre los usuarios; esta información debe ser realizada por instancia del equipo de desarrollo de la empresa, pero también sobre el sitio web o #[i app] actual (si se trata de un rediseño).
