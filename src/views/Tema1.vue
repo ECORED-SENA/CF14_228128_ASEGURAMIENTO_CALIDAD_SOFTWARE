@@ -8,7 +8,7 @@
       h1 Arquitectura de la información, navegación y búsqueda
     .row
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
-        p.mb-0 En esta unidad, se abordarán, de manera general, áreas claves para la comprensión de la disciplina de la usabilidad, por lo que es necesario profundizar en temáticas como la Arquitectura de la Información (AI), donde no solo se trata de la estructura gráfica visual de una aplicación #[i software], sino que también importa el contenido que se va colocar, es decir, debe haber un sentido y organización de la información, por lo que se adicionan técnicas y consejos  alrededor de una buena construcción, en pro de la navegación y la búsqueda. De esta manera, con estas temáticas y herramientas, se pretende que  tenga las habilidades y competencias para validar y mejorar las aplicaciones #[i software] asociadas al concepto de la usabilidad.
+        p.mb-0 En esta unidad, se abordarán, de manera general, áreas claves para la comprensión de la disciplina de la usabilidad, por lo que es necesario profundizar en temáticas como la Arquitectura de la Información (AI), donde no solo se trata de la estructura gráfica visual de una aplicación #[i software], sino que también importa el contenido que se va a colocar, es decir, debe haber un sentido y organización de la información, por lo que se adicionan técnicas y consejos  alrededor de una buena construcción, en pro de la navegación y la búsqueda. De esta manera, con estas temáticas y herramientas, se pretende que  tenga las habilidades y competencias para validar y mejorar las aplicaciones #[i software] asociadas al concepto de la usabilidad.
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width:440px", alt='').m-auto
@@ -104,7 +104,7 @@
                       .col-12.bg-c8
                         .p-4
                           p.mb-0 Una buena arquitectura de la información, ayudará a encontrar la información que se está buscando, descartando el contenido que no está relacionado con la misma, mediante una toma de decisiones que requiera el menor tiempo posible.
-          p.mb-5(data-aos="fade-right") La dificultad, radica en una serie de características que se debe tener en cuenta sobre los usuarios y contenidos:
+          p.mb-5(data-aos="fade-right") La dificultad radica en una serie de características que se debe tener en cuenta sobre los usuarios y contenidos:
     .row.bg-c9.mb-5(data-aos="fade-left")
       .col-12
         .p-5
@@ -457,7 +457,7 @@
           .col-md-9.col-lg.bg-c14.m-2
             .p-4
               p.text-center.mb-0 ¿Cuál es la información más relevante?
-        p Esta reflexión lleva a establecer que el cliente no es el usuario, que el equipo de desarrollo (diseñadores, programadores y tester) tampoco. Se debe entender que los usuarios tienen diferentes conocimientos, diferente experiencia o diferentes maneras de ver las cosas. Por lo tanto, en el momento de realizar las pruebas de interfaces, es importante entender qué información están buscando, por lo que la interfaz debe obedecer a lo siguiente:
+        p Esta reflexión lleva a establecer que el cliente no es el usuario, que el equipo de desarrollo (diseñadores, programadores y #[em tester]) tampoco. Se debe entender que los usuarios tienen diferentes conocimientos, diferente experiencia o diferentes maneras de ver las cosas. Por lo tanto, en el momento de realizar las pruebas de interfaces, es importante entender qué información están buscando, por lo que la interfaz debe obedecer a lo siguiente:
         .row
           .col-12.bg-c2
             .p-4
@@ -558,7 +558,7 @@
                     ul.lista-ul.ms-4
                       li.d-flex
                         i.lista-ul__vineta
-                        | Cuantitativo (resultados, dendrograma, matriz de co-ocurrencia).
+                        | Cuantitativo (resultados, dendrograma, matriz de coocurrencia).
                       li.d-flex
                         i.lista-ul__vineta
                         | Cualitativo (Comentarios, sugerencias, dudas, alternativas).
@@ -573,7 +573,7 @@
                       li.d-flex
                         .lista-ol--cuadro__vineta
                           span(style="color:#000") 2.
-                        | Es recomendable que para la prueba se tengan cinco (5) personas, y el tiempo utilizado es de 20 min x persona.
+                        | Es recomendable que para la prueba se tengan cinco (5) personas, y el tiempo utilizado es de 20 min por persona.
             .col-lg-10.bg-c21(data-aos="fade-left")
               .p-4
                 .row.align-items-center
@@ -586,7 +586,7 @@
                         .lista-ol--cuadro__vineta
                           span(style="color:#000") 3.
                         | La técnica puede realizarse en dos tipos, de manera cerrada (validación) o abierta (investigación). Es decir, cuando es cerrada, es porque las categorías ya están definidas, de esta manera, los usuarios lo que hacen es clasificar los ítems en las categorías ya establecidas. Por otro lado, cuando se aplica de manera abierta, los usuarios agrupan los ítems y dan nombres a las categorías de estas agrupaciones.
-          p.mb-5(data-aos="fade-right") De acuerdo con lo visto hasta el momento, en relación al análisis de resultados, se pueden presentar estos con alguna de las siguientes técnicas:
+          p.mb-5(data-aos="fade-right") De acuerdo con lo visto hasta el momento, en relación con el análisis de resultados, se pueden presentar estos con alguna de las siguientes técnicas:
     .row.mb-5
       .col-12.bg-c23(data-aos="fade-down")
         .p-4
@@ -594,18 +594,18 @@
             li.d-flex
               i.fas.fa-circle(style="color:#1682FB !important")
               |
-              p.mb-0 #[b Matriz de co-ocurrencia]: con el resultado de la matriz de co-ocurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
+              p.mb-0 #[b Matriz de coocurrencia]: con el resultado de la matriz de coocurrencia, se muestra claramente la clasificación de varios ítems en ciertas categorías, por lo que se ve con un color azul mucho más oscuro la concurrencia de los términos, por lo tanto, lo que se presume y propone es que la interfaz de la aplicación debe tener entre 5 a 6 agrupaciones (o categorías) fijas. Los otros ítems pueden ser adicionados en las categorías más concurridas.
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 #[b Figura 3]. Ejemplo de matriz de co-ocurrencia
+          p.mb-0 #[b Figura 3]. Ejemplo de matriz de coocurrencia
         .row
           .col-12.bg-c17(data-aos="fade-left")
             .p-5
               .row.justify-content-center
                 .col-auto
                   figure
-                    img(src='@/assets/curso/tema1/img22.png', style="width:750px" alt='La matriz contiene una matriz de co-ocurrencia que enumera categorías de muebles y muestra su relación con varios factores representados por columnas, con números que indican el nivel de concurrencia o frecuencia de relación. Esta matriz sirve para analizar patrones de asociación entre categorías de muebles en diferentes situaciones o condiciones.').m-auto
+                    img(src='@/assets/curso/tema1/img22.png', style="width:750px" alt='La matriz contiene una matriz de coocurrencia que enumera categorías de muebles y muestra su relación con varios factores representados por columnas, con números que indican el nivel de concurrencia o frecuencia de relación. Esta matriz sirve para analizar patrones de asociación entre categorías de muebles en diferentes situaciones o condiciones.').m-auto
                   figcaption Nota. Tomado de (Blogger, 2020).
     .row.mb-5
       .col-12.bg-c23(data-aos="fade-down")
@@ -614,7 +614,7 @@
             li.d-flex
               i.fas.fa-circle(style="color:#1682FB !important")
               |
-              p.mb-0 #[b Dendrograma]: el análisis del dendrograma revela las agrupaciones posibles, lo que subraya la responsabilidad del equipo de desarrollo al decidir cuántas categorías incorporar en el diseño de la interfaz, ya sean 2, 3 o 4. Esta decisión depende en gran medida de la investigación realizada con los usuarios, resaltando así la importancia y el papel crucial del evaluador o tester de interfaces de #[i software]. Estos profesionales tienen la capacidad de determinar la eficacia de la arquitectura de la información, basándose en las técnicas y conceptos estudiados.
+              p.mb-0 #[b Dendrograma]: el análisis del dendrograma revela las agrupaciones posibles, lo que subraya la responsabilidad del equipo de desarrollo al decidir cuántas categorías incorporar en el diseño de la interfaz, ya sean 2, 3 o 4. Esta decisión depende en gran medida de la investigación realizada con los usuarios, resaltando así la importancia y el papel crucial del evaluador o #[em tester] de interfaces de #[i software]. Estos profesionales tienen la capacidad de determinar la eficacia de la arquitectura de la información, basándose en las técnicas y conceptos estudiados.
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")

@@ -25,7 +25,7 @@
                       .bloque-texto-d.p-4
                         .bloque-texto-d__texto.mb-2
                           i.fas.fa-quote-left
-                          p.text-center #[b ...hace poco me encontré con dos diseñadores de sitios web que orgullosos de su nuevo sitio me miraron atónitos cuando les pregunté si lo habían probado con usuarios. «No», dijeron, «pero nosotros sabemos que está bien». Indagué un poco más y descubrí que en su empresa eran considerados como expertos pues conocían perfectamente todos los trucos del diseño web...]
+                          p.text-center #[b ... Hace poco me encontré con dos diseñadores de sitios web que orgullosos de su nuevo sitio me miraron atónitos cuando les pregunté si lo habían probado con usuarios. «No», dijeron, «pero nosotros sabemos que está bien». Indagué un poco más y descubrí que en su empresa eran considerados como expertos, pues conocían perfectamente todos los trucos del diseño web...]
                           i.fas.fa-quote-right
                         .bloque-texto-d__autor 
                           p.mb-0.text-center - Jenny Preece
@@ -71,7 +71,7 @@
                     h3 Lugar de realización
           .row.align-items-center.mb-5
             .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
-              p En relación al lugar de realización, se tiene en cuenta el ambiente, controlado o no, al llevar a cabo la evaluación. Puede ser en espacios controlados, como los laboratorios, donde hay mayor manejo de las condiciones y variables externas. Y también están los espacios naturales, que, de acuerdo con el entorno del observado, se tendrá menor manejo sobre variables que puedan intervenir en la evaluación. Se presentan dos categorías generales, así:
+              p En relación con el lugar de realización, se tiene en cuenta el ambiente, controlado o no, al llevar a cabo la evaluación. Puede ser en espacios controlados, como los laboratorios, donde hay mayor manejo de las condiciones y variables externas. Y también están los espacios naturales, que, de acuerdo con el entorno del observado, se tendrá menor manejo sobre variables que puedan intervenir en la evaluación. Se presentan dos categorías generales, así:
             .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img4.svg', style="width:320px", alt='').m-auto
@@ -81,7 +81,7 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema2/img5.svg', style="width:120px", alt='').m-auto
                 p #[b Aquellos que se realizan en el laboratorio]
-                p El objetivo del evaluador, a veces, es comprobar aspectos sin que sea necesaria la ayuda y/o presencia de los usuarios. Este tipo de comprobaciones y validaciones las realiza, normalmente, en su área de trabajo, que por lo general es en el laboratorio, donde se puede tener una gran oportunidad de traer usuarios para un estudio particular.
+                p El objetivo del evaluador, a veces, es comprobar aspectos sin que sea necesaria la ayuda o presencia de los usuarios. Este tipo de comprobaciones y validaciones las realiza, normalmente, en su área de trabajo, que por lo general es en el laboratorio, donde se puede tener una gran oportunidad de traer usuarios para un estudio particular.
                 p.mb-0 En la sección de material complementario, se presenta un ejemplo de laboratorio de usabilidad construido por una de las grandes multinacionales, como lo es Oracle. Para visualizar y aprender sobre este escenario, encontrará el enlace con el nombre de laboratorios de usabilidad.
             .col-lg-6.bg-c30(data-aos="fade-left")
               .p-4
@@ -106,13 +106,13 @@
             .col-auto
               p.text-white.txt-c3.mb-0 #[b Tipo de técnica en evaluación de usabilidad]
           TabsC.color-acento-botones
-            .p-4.bg-white(titulo="1. Insprección")
+            .p-4.bg-white(titulo="1. Inspección")
               .row.align-items-center
                 .col-lg-4.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/img8.svg', style="width:320px", alt='').m-auto
                 .col-lg-8
-                  p #[b 1. Insprección]
+                  p #[b 1. Inspección]
                   p El término utilizado de inspección, aplicado al contexto de la usabilidad, agrupa un conjunto de métodos para evaluar la usabilidad, donde los expertos que son conocidos como evaluadores explican el grado de usabilidad de un sistema, soportados en la inspección o examen de la interfaz del mismo.
                   .row.justify-content-center
                     .col-10.col-lg-auto.mx-1.my-3
@@ -208,7 +208,7 @@
         .col-12
           .p-0
             p #[b Inspección de estándares]
-            p.mb-0 Se realiza por medio de un experto en un estándar de la interfaz, que puede ser de facto o de iure. El experto realiza una inspección minuciosa a la interfaz, para comprobar que en todo momento y de manera global se cumplen los puntos definidos en el estándar.
+            p.mb-0 Se realiza por medio de un experto en un estándar de la interfaz, que puede ser #[em de facto] o #[em de iure]. El experto realiza una inspección minuciosa a la interfaz, para comprobar que en todo momento y de manera global se cumplen los puntos definidos en el estándar.
     ModalA(:abrir-modal.sync="modal6")
       .row
         .col-12
@@ -232,7 +232,7 @@
         .col-12
           .p-0
             p #[b Cuestionarios (#[i Surveys])]
-            p.mb-0 Herramienta de investigación que consiste en una serie de preguntas diseñadas para recopilar información de los participantes sobre diversos temas, preferencias o opiniones.
+            p.mb-0 Herramienta de investigación que consiste en una serie de preguntas diseñadas para recopilar información de los participantes sobre diversos temas, preferencias u opiniones.
     ModalA(:abrir-modal.sync="modal10")
       .row
         .col-12
@@ -325,7 +325,7 @@
                 .col.bg-c32
                   .p-1
                     p.mb-0 #[b(style="color:#000") Control y libertad del usuario]
-              p.mb-0 Es normal que, cuando se utiliza por primera vez, los usuarios ingresen a un sitio donde no querían, por lo que necesitan una 'puerta de emergencia' para salir del estado indeseado. En ese sentido es imperativo ofrecer soporte para deshacer y rehacer acciones.
+              p.mb-0 Es normal que, cuando se utiliza por primera vez, los usuarios ingresen a un sitio donde no querían, por lo que necesitan una 'puerta de emergencia' para salir del estado indeseado. En este sentido, es imperativo ofrecer soporte para deshacer y rehacer acciones.
             .tarjeta.color-secundario.p-4
               .row.align-items-start.mb-3
                 .col-auto.bg-c31

@@ -154,14 +154,6 @@ export default {
       link: 'https://www.youtube.com/watch?v=kuWQCxB5r_k',
     },
     {
-      tema: 'Evaluación heurística',
-      referencia:
-        'Modroño, T. (2017). <i>Metodologías de UX: Evaluación Heurística (PARTE I)</i>. Medium. ',
-      tipo: 'Artículo',
-      link:
-        'https://blog.interactius.com/metodolog%C3%ADas-de-ux-evaluaci%C3%B3n-heur%C3%ADstica-parte-i-b5d02b566987',
-    },
-    {
       tema: 'Tipo de técnica',
       referencia:
         'Nielsen, J. (2020). <i>10 Usability Heuristics for User Interface Design</i>. Nielsen Norman Group.',
